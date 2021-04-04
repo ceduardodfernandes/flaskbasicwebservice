@@ -26,8 +26,8 @@ tasks = [
 
 @auth.get_password
 def get_password(username):
-    if username == 'eduardo':
-        return 'angela'
+    if username == 'admin':
+        return '123456'
     return None
 
 @auth.error_handler
